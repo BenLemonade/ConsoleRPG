@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Engine
 {
-    // Creating public class 'Player', a subclass of 'Entity'
+    // Creating public class 'Player' : 'Entity'
     public class Player : Entity
     {
         // Attributes are: 'Moolah', 'EXP', 'LVL', and 'Inventory'
