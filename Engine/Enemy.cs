@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
+    // Creating public sub-class 'Enemy' : 'Entity'
     public class Enemy : Entity
     {
+        // Attributes are: 'ID', 'Name', 'Max Damage', 'Reward EXP', 'Reward Moolah', and 'Loot Item'
         public int ID { get; set; }
         public string Name { get; set; }
         public int MaxDamage { get; set; }

@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
+    // Creating public class 'Location' to describe the different locations/rooms
     public class Location
     {
+        // Shared attributes are 'ID', 'Size X', 'Size Y', 'Name', 'Description', 'Item Required to Enter', 'Enemy Living Here', 'Loc. N', 'Loc. E', 'Loc. S', 'Loc. W'
         public int ID { get; set; }
         public int SizeX { get; set; }
         public int SizeY { get; set; }
