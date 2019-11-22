@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "ConsoleRPG/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/ConsoleRPG.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleRPG.dll": {}
+        }
       }
     }
   },
@@ -172,10 +182,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "ConsoleRPG/1.0.0": {
+      "type": "project",
+      "path": "../ConsoleRPG/ConsoleRPG.csproj",
+      "msbuildProject": "../ConsoleRPG/ConsoleRPG.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "ConsoleRPG >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -204,7 +220,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "Y:\\Visual Studio for C#\\Projects\\Homework3-BasicRPG\\ConsoleRPG\\ConsoleRPG.csproj": {
+              "projectPath": "Y:\\Visual Studio for C#\\Projects\\Homework3-BasicRPG\\ConsoleRPG\\ConsoleRPG.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -236,5 +256,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project ConsoleRPG is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project ConsoleRPG supports: netcoreapp3.0 (.NETCoreApp,Version=v3.0)",
+      "libraryId": "ConsoleRPG",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }
