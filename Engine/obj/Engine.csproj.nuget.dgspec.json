@@ -4,58 +4,6 @@
     "Y:\\Visual Studio for C#\\Projects\\Homework3-BasicRPG\\Engine\\Engine.csproj": {}
   },
   "projects": {
-    "Y:\\Visual Studio for C#\\Projects\\Homework3-BasicRPG\\ConsoleRPG\\ConsoleRPG.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "Y:\\Visual Studio for C#\\Projects\\Homework3-BasicRPG\\ConsoleRPG\\ConsoleRPG.csproj",
-        "projectName": "ConsoleRPG",
-        "projectPath": "Y:\\Visual Studio for C#\\Projects\\Homework3-BasicRPG\\ConsoleRPG\\ConsoleRPG.csproj",
-        "packagesPath": "C:\\Users\\BenLemonade\\.nuget\\packages\\",
-        "outputPath": "Y:\\Visual Studio for C#\\Projects\\Homework3-BasicRPG\\ConsoleRPG\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\BenLemonade\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.0": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.0": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "Y:\\Visual Studio for C#\\Projects\\Homework3-BasicRPG\\Engine\\Engine.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -78,11 +26,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {
-              "Y:\\Visual Studio for C#\\Projects\\Homework3-BasicRPG\\ConsoleRPG\\ConsoleRPG.csproj": {
-                "projectPath": "Y:\\Visual Studio for C#\\Projects\\Homework3-BasicRPG\\ConsoleRPG\\ConsoleRPG.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

@@ -6,17 +6,15 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    // Creating public sub-class 'Tool' : 'Item'
     public class Tool : Item
     {
-        // Attributes are: 'Min Damage', 'Max Damage'
-        public int MinDamage { get; set; }
-        public int MaxDamage { get; set; }
+        public int MinimumDamage { get; set; }
+        public int MaximumDamage { get; set; }
 
-        public Tool(int id, string name, string namePlural, int minDamage, int maxDamage) : base(id, name, namePlural)
+        public Tool(int id, string name, string namePlural, int minimumDamage, int maximumDamage) : base(id, name, namePlural)
         {
-            MinDamage = minDamage;
-            MaxDamage = maxDamage;
+            MinimumDamage = minimumDamage;
+            MaximumDamage = maximumDamage;
         }
     }
 }
